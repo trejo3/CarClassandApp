@@ -1,5 +1,5 @@
 
-public class Car 
+public class Car extends Vehicle
 {
 	private String color;
 	private String make;
@@ -39,9 +39,16 @@ public class Car
 		maxSpeed = newMaxSpeed;
 	}
 	
-	public String displayCarColorAndMake()
+//Methods	
+	
+	public String displayColor()
 	{
-		return "The car is a " + color + " " + make;
+		return "The car is a " + color;
+	}
+	
+	public String displayMake()
+	{
+		return " " + make;
 	}
 	
 	public String displayStarting()

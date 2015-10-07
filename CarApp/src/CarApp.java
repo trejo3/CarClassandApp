@@ -11,7 +11,7 @@ public class CarApp
 		
 		Car myCar = new Car(color, make, maxSpeed);
 		
-		System.out.println(myCar.displayCarColorAndMake());
+		System.out.println(myCar.displayColor());
 		System.out.println(myCar.displayStarting());
 		System.out.println(myCar.displayAccelerating());
 		System.out.println(myCar.displaySpeed(maxSpeed));
@@ -26,14 +26,12 @@ public class CarApp
 		
 		Car myCar1 = new Car(color1, make1, maxSpeed1);
 		
-		System.out.println(myCar1.displayCarColorAndMake());
+		System.out.println(myCar1.displayColor());
 		System.out.println(myCar1.displayStarting());
 		System.out.println(myCar1.displayAccelerating());
 		System.out.println(myCar1.displaySpeed(maxSpeed));
 		System.out.println(myCar1.displaySlowingDown());
 		System.out.println(myCar1.displayStopped());
-		
-		
 		
 	}
 }
